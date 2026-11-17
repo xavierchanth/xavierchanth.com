@@ -5,7 +5,7 @@
 - Personal site built with SvelteKit 2 on Vite.
 - Uses Svelte 5 patterns in components and routes.
 - Managed with Bun (`packageManager: bun@1.3.5`).
-- Static output via `@sveltejs/adapter-static`.
+- Static output via `@sveltejs/adapter-static`, hosted on Vercel (`chanthavong-consulting` team, project `xavierchanth-com`).
 - Blog content uses mdsvex Markdown files in `src/posts`.
 - Styling uses Tailwind CSS plus Prism's `prism-okaidia` theme for code blocks.
 
@@ -16,7 +16,8 @@
 - `bun run check`
 - `bun run lint`
 - `bun run build`
-- `bun run deploy`
+
+Deploys: pushing to `trunk` deploys production on Vercel; other branches get preview deployments.
 
 Validation note: `bun run check`, `bun run lint`, and `bun run build` were attempted in this environment, but local binaries were unavailable because dependencies are not currently installed.
 
@@ -25,7 +26,7 @@ Validation note: `bun run check`, `bun run lint`, and `bun run build` were attem
 - `src/routes`: pages, route loaders, layout, error page, and RSS endpoint
 - `src/lib`: shared components, metadata, and post-loading helpers
 - `src/posts`: Markdown blog posts
-- `static`: site assets, favicon, and `CNAME`
+- `static`: site assets and favicon
 
 ## Editing Conventions
 

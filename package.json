@@ -8,7 +8,6 @@
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
-		"deploy": "bun run build && gh-pages -d build -t",
 		"export:post-pdf": "bun scripts/export-post-pdf.js",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
@@ -37,7 +36,6 @@
 	},
 	"dependencies": {
 		"@tailwindcss/typography": "^0.5.20",
-		"gh-pages": "^6.3.0",
 		"prismjs": "^1.30.0",
 		"rehype-prism-plus": "^2.0.2",
 		"showdown": "^2.1.0"
