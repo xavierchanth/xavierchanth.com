@@ -12,8 +12,7 @@
 		BLOG_IMAGE,
 		BLOG_TITLE,
 		BLOG_URL,
-		CONSULTING_BUSINESS_NAME,
-		WOOSAH_BUSINESS_NAME
+		CONSULTING_BUSINESS_NAME
 	} from '$lib/metadata';
 
 	let { children } = $props();
@@ -50,15 +49,6 @@
 			addressImage: {
 				src: '/assets/contact/professional-contact.png',
 				width: 229,
-				height: 18
-			}
-		},
-		{
-			name: WOOSAH_BUSINESS_NAME,
-			role: 'Inquiries about my startup',
-			addressImage: {
-				src: '/assets/contact/creative-contact.png',
-				width: 134,
 				height: 18
 			}
 		}

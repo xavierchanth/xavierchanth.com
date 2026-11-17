@@ -57,18 +57,20 @@
 
 		<div class="site-intro-body">
 			<p>
-				I am an independent software consultant and currently building <a
-					href="https://www.woosah.io"
+				I am the co-founder and COO of <a
+					href="https://comealign.com"
 					target="_blank"
-					rel="noopener noreferrer">Woosah</a
-				>, a startup working on solving problems in the operational assurance space. I love all
-				kinds of software and have spent time deepening my knowledge across full-stack development,
-				systems programming, and data science and machine learning. I write about how software is
-				designed, shipped, and maintained.
+					rel="noopener noreferrer">Align</a
+				>, a dating app that matches people by astrology and gets them off their phones and onto
+				real dates. I lead operations, venue partnerships, and customer success. I love all kinds of
+				software and have spent time deepening my knowledge across full-stack development, systems
+				programming, and data science and machine learning. I write about how software is designed,
+				shipped, and maintained.
 			</p>
 			<p>
-				Before Woosah, I was a senior engineer at Atsign. Through {CONSULTING_BUSINESS_NAME}, I've
-				served clients across technology startups, public-sector records, mining services,
+				Before Align, I co-founded Woosah, where I built the core technology platform, and before
+				that I was a senior engineer at Atsign, where I continue as an advisor. Through {CONSULTING_BUSINESS_NAME},
+				I've served clients across technology startups, public-sector records, mining services,
 				healthcare, media and entertainment, and recreation since 2017.
 			</p>
 			<LinkRow links={CONTACT_LINKS} label="Contact" />

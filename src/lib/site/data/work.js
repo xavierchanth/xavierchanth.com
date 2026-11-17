@@ -8,10 +8,17 @@
 /** @type {WorkEntry[]} */
 export const WORK = [
 	{
+		org: 'Align',
+		role: 'Co-Founder & COO',
+		period: 'Present',
+		summary:
+			'A dating app that matches people by astrology and gets them off their phones and onto real dates.'
+	},
+	{
 		org: 'Woosah Technologies',
 		role: 'Co-Founder & CPTO',
-		period: 'Present',
-		summary: 'Building operations-assurance infrastructure for distributed systems.'
+		period: '2025–2026',
+		summary: 'Built the core technology platform for operations-assurance infrastructure.'
 	},
 	{
 		org: 'Atsign',
