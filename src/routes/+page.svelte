@@ -6,13 +6,7 @@
 	import WorkList from '$lib/site/components/WorkList.svelte';
 	import { PROJECTS } from '$lib/site/data/projects.js';
 	import { WORK } from '$lib/site/data/work.js';
-	import {
-		COLOPHON_DOTFILES,
-		CONTACT_LINKS,
-		EDUCATION,
-		NAME,
-		PORTRAIT
-	} from '$lib/site/data/profile.js';
+	import { CONTACT_LINKS, EDUCATION, NAME, PORTRAIT } from '$lib/site/data/profile.js';
 	import { BLOG_DESCRIPTION, BLOG_URL, CONSULTING_BUSINESS_NAME } from '$lib/metadata';
 
 	let { data } = $props();
@@ -93,12 +87,6 @@
 	<Section id="colophon" title="Colophon">
 		<div class="site-colophon site-small site-muted site-section-footer">
 			<p>{EDUCATION}</p>
-			<p>
-				I am a dotfile fanatic, you can find mine on
-				<a href={COLOPHON_DOTFILES.href} target="_blank" rel="noopener noreferrer">GitHub</a>. I
-				maintained them with a massive handwritten posix shell harness until agents got good enough
-				to rewrite it all in nix.
-			</p>
 		</div>
 	</Section>
 </div>
